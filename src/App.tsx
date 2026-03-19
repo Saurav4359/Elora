@@ -1,3 +1,5 @@
+import { Sidebar } from "./prompt-input";
+
  
 export const App = () => {
   return (
@@ -8,6 +10,7 @@ export const App = () => {
           Project setup complete. Ready for Class 2.
         </p>
       </div>
+      <Sidebar/>
     </div>
   );
 };
