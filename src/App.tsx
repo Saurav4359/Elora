@@ -1,5 +1,4 @@
-// src/App.tsx
-// purpose: main app shell (placeholder for now)
+ 
 
 import { useState } from "react";
 import { Sidebar } from "./prompt-input";
@@ -13,6 +12,7 @@ export const App = () => {
   const [galleryState] = useState<GalleryState>({ status: "idle" });
   const handleGenerate = (prompt: string) => {
     // generate .....
+     
   };
   return (
     <div className="flex h-screen bg-gray-950 text-white overflow-hidden">
