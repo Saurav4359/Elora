@@ -24,8 +24,7 @@ const extractTitle = (prompt: string): string => {
   return words.length > 50 ? words.slice(0, 50) + "..." : words;
 };
 
-const SYSTEM_PROMPT =
-  "Return only raw JSX for a single React component. No imports, no exports, no function wrapper, no explanations, no markdown code fences. Use only Tailwind CSS classes for styling. The JSX should be a single root element. Use realistic placeholder content.";
+ 
 
 export const App = () => {
   const [apiKey, setApiKey] = useState(
